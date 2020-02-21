@@ -1,0 +1,19 @@
+body {
+    font-family: verdana;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .selected {
+    background-color: tomato;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  input, button {
+    height: 2rem;
+    font-size: 1rem;
+  }
